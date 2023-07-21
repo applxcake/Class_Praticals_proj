@@ -1,8 +1,12 @@
+import sys
 from time import sleep # You Guys Dont Need To Use This Feature
 
 #Area Calculator OF Square
 
-print("Welcome To Area Calculator OF Square")
+words ="Welcome To Area Calculator OF Square"
+for char in words:
+  sleep(0.01)
+  sys.stdout.write (char)
 
 s1 = int(input("Enter The length Of Square :- ")) # Taking input Of Side
 
